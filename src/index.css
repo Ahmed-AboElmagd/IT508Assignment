@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+:root {
+  --bg-color: #121621;
+  --main-font: 'Montserrat Alternates', sans-serif;
+}
+body {
+  font-family: var(--main-font);
+  color: #fff;
+  background-color:var(--bg-color) ;
+}
+a, a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.active{
+  color: #fff !important;
+}
